@@ -1,0 +1,276 @@
+body {
+    margin:0;
+    font-family: Arial;
+    font-size: 12px;
+    }
+.topo{
+    height: 30px; background-color: #333;
+}
+.topoint{
+    width: 100%;
+    max-width: 1040px;
+    height:30px;
+    margin:auto;   
+}
+.topoleft{
+width: 50%;
+height:30px;
+float: left;
+}
+
+.toporight{
+margin-top: 2px;
+text-align: right;
+width: 50%;
+height: 28px;
+float: right;
+}
+
+.topoleft ul{
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+.topoleft li{
+float: left;
+height: 30px;
+line-height: 30px;
+margin-left: 8px;
+margin-right: 8px;
+}
+
+.topoleft li a{
+text-decoration: none;
+color: #fff;
+}
+
+.topoleft li .ativo{
+color: blue;
+}
+
+.topobusca{
+    width: 110p; height: 26;
+    outline: 0;
+    }
+
+.toporight a {
+float:right;
+}
+
+.toporight input {
+float:right
+}
+
+.toporight img {
+margin-right: 3px;
+}
+
+.topo2{
+    height: 95px; color: #000;
+}
+.topo2int{
+    width: 100%;
+    max-width: 1040px;
+    height:95px;
+    margin:auto;   
+}
+
+.logo{
+width: 230px;
+height: 95px;
+float:left;
+margin-top: 10px;
+}
+
+.topo2 .banner{
+width: 650px;
+height: 80px;
+float:right;
+margin-top: 7px;
+background-color: red;
+}
+
+.menu{
+height: 40px;
+background-color: red;
+}
+
+.menuint {
+    width: 100%;
+    max-width: 1040px;
+    height: 40px;
+    margin:auto;
+    background-color: black;
+}
+
+.menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu li{
+    float:left;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.menu li:hover .submenu {
+    display: block;
+}
+.menu a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.submenu{
+    width: 150px;
+    height: 150px;
+    background-color:#ff0000;
+    position: absolute;
+    display: none;
+}
+
+.submenuitem {
+    width: 140px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+}
+
+.submenuitem:hover {
+    background-color: #ff5555;
+}
+
+.ultimasnoticias{
+    height: 40px;
+    
+}
+
+.ultimasnoticiasint{
+    width: 100%;
+    max-width: 1040px;
+    margin: auto;
+    height: 40px;
+}
+
+.ultinoticiasarea{
+    height: 28px;
+    background-color: white;
+    border: 1px solid#ccc;
+    margin-top: 10px;
+}
+
+.ultinoticiastitulo{
+    background-color: #ff0000;
+    color: white;
+    line-height: 28px;
+    height: 28px;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+}
+
+.ultinoticiasnoticia {
+    color: #000;
+    height: 28px;
+    line-height: 28px;
+    display: inline-block;
+    padding-left: 5px;
+}
+
+.containerint {
+    width: 100%;
+    max-width: 1040px;
+    margin: auto;
+    }
+
+.rightside{
+    width: 275px;
+    min-height: 200px;
+    float: right;
+    margin-left: 12px;
+}
+
+.leftside{
+    width: 753px;
+    float: left;
+ }
+
+.widget{
+    background-color:#fff;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.widget_titulo{
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+    padding-left: 5px;
+    background-color: #ddd;
+    border-bottom: 1px;  
+}
+
+.widget_conteudo{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.noticia_item{
+    font-size: 14px;
+    margin: 0px 10px;
+    padding: 10px 0px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+.noticia_item a{
+    text-decoration: none;
+    color: black;
+}
+
+.slideshow{
+    height: 335px;
+    overflow: hidden;
+}
+
+.slideshowarea{
+    width: 100000px;
+    height: 335px;
+    transition: all 2s;
+}
+
+.slide{
+    height: 335px;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+
+.slideinfo {
+    height:70px;
+    background-image:url('assets/images/slideshow_bg.png');
+    background:linear-gradient(top, black); 
+    background-size:auto 70px;
+    margin-top:265px;
+} 
+
+.slideinfo_titulo{
+    font-size: 20px;
+    color: #000;
+    padding-top: 15px;
+    padding-left: 20px;
+    
+}
+.slideinfo_subtitulo{
+    font-size: 300px;
+    color: #000;
+    padding-left: 20px;
+}
