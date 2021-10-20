@@ -36,3 +36,9 @@ function toggleMenu() {
 	}
 
 }
+
+function changeslide(pos){
+    slideItem = pos;
+	var slidewidth = document.getElementById("slideshow").offsetWidth;
+	document.getElementsByClassName("slideshowarea")[0].style.marginLeft = "-"+(slidewidth * slideItem)+"px";
+    }
